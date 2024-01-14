@@ -20,6 +20,25 @@ This Bash script automates the backup of the `.bashrc` file and the `crontab` li
 
 This will run the script every day at 10 am and append the output and errors to `cron_log.txt`.
 
+## Description
+
+This Bash script is designed to perform the following tasks:
+
+1. Backup the `.bashrc` file with a timestamp.
+2. Backup the user's crontab to a text file.
+3. Display the contents of the backup directory.
+4. Upload the backups to a remote location using RClone.
+5. Clean up the temporary backup directory.
+
+## Usage
+
+### Prerequisites
+
+- [RClone](https://rclone.org/) must be installed and configured.
+- Ensure that you have the necessary permissions to execute the script.
+
+### Running the Script
+
 ## Donations
 
 If you find this script useful and want to show your appreciation, you can donate via [Buy Me a Coffee](https://www.buymeacoffee.com/lalatendu.swain).
