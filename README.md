@@ -7,7 +7,10 @@ This Bash script automates the backup of the `.bashrc` file and the `crontab` li
 1. Set the script executable:
 
    ```bash
+   git clone https://github.com/Lalatenduswain/Ubuntu-System-BashRC-and-Corn-Job-Backup-Script.git
+   cd Ubuntu-System-BashRC-and-Corn-Job-Backup-Script
    chmod +x my-system-corn-job.sh
+   ./my-system-corn-job.sh
    ```
 
 2. Schedule the script to run as a cron job.
